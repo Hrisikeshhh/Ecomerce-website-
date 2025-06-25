@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+header{
+    position: sticky;
+    top: 0%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background-color: #E3E6F3;
+    box-shadow: 0px 3px 62px;
+    position: relative;
+    z-index: 2;
+}
+.leftNav{
+   width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.rightNav{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    height: 49%;
+    align-items: center;
+}
+.listItem{
+    display: flex;
+    justify-content: space-between;
+    width: 72%;
+    height: 77%;
+    align-items: center;
+}
+.listItem li{
+    font-size: 132%;
+    list-style: none;
+}
+.listItem li a{
+    color: BLACK;
+    text-decoration: none;
+}
+.listItem li a:hover{
+ color: #088178;
+ font-size: 120%;
+ cursor: pointer;
+ border-bottom:3px solid #088178 ;
+ transition: 0.2s ease;
+}
+.logo{
+   width: 45%;
+}
+.logo img{
+width: 100%;
+}
+
+.hero{
+    
+    height: 90vh;
+    width: 100%;
+    z-index: 1;
+    background-image: url(img/hero4.png);
+    background-size: cover;
+    
+}
+
+.outer-box{
+    padding-top: 17%;
+    padding-left: 6%;
+}
+
+.outer-box h4{
+font-size: 170%;
+}
+
+.outer-box h1{
+font-size: 380%;
+color: #088178;
+}
+
+.outer-box p{
+    margin-top: 3%;
+    font-size: 140%;
+    color: gray;
+}
+.outer-box button{
+    margin: 4% 3%;
+    padding: 1% 5%;
+    cursor: pointer;
+    background: url(img/button.png);
+    background-size: cover;
+    border: transparent;
+}
+#features{
+    height: 36vh;
+    margin-top: 2%;
+}
+.outerFeature{
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 2%;
+    cursor:auto;
+}
+.innerfeature{
+    height: 95%;
+    width: 15%;
+    border-radius: 11px;
+    border: 2px solid #ebe5e5;
+    box-shadow: 1px 3px 22px  #E3E6F3;
+}
+
+.logof{
+    width: 88%;
+    height: 69%;
+    margin: 5% 6%;
+}
+
+.featuresTag{
+    width: 66%;
+    height: 13%;
+    margin: 2% 18%;
+    text-align: center;
+    align-content: center;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.logof img{
+width: 100%;
+}
+.pink{
+    background-color: rgba(255, 192, 203, 0.5);
+    color:#088178;
+}
+.green{
+    background-color: rgba(158, 218, 158, 0.5);
+    color: #088178;
+}
+.blue{
+    background-color: rgba(161, 208, 237, 0.5);
+    color: #088178;
+}
+.purple{
+    background-color: rgba(217, 161, 217, 0.5);
+    color: #088178;
+}
+
+.orange{
+    background-color: rgba(244, 219, 172, 0.5);
+    color: #088178;
+}
+.product{
+ height: 130vh;
+}
+.product h1{
+    font-size: 295%;
+    text-align: center;
+    margin: 2% 0%;
+}
+.product p{
+    font-size: 118%;
+    color: gray;
+    text-align: center;
+}
+.proOuter{
+    width: 100%;
+    margin: 2% 0%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.proContainer{
+    height: 100%;
+    width: 20%;
+    border-radius: 38px;
+    box-shadow: 1px 3px 67px #E3E6F3;
+    border: 2px solid #ebe5e5;
+}
+.proContainer h4{
+    display: inline;
+    margin: 0% 8%;
+    margin-right: 35%;
+    color: #088178;
+}
+.pro{
+    height: 70%;
+    width: 83%;
+    margin: 4% 9%;
+    border-radius: 24px;
+    background-size: cover;
+    overflow: hidden;
+    background-color: #f5f0f0;
+}
+
+
+.pro img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.des{
+    width: 100%;
+    height: 10%;
+    margin-left: 8%;
+}
+.des p{
+    font-size: 80%;
+    text-align: start;
+}
+.des h1{
+   font-size: 95%;
+    text-align: start;
+}
+.stars{
+    height: 5%;
+    color: yellow;
+    margin-left: 7%;
+}
+#cart{
+    margin: 0% 16%;
+    font-size: 147%;
+    color:#088178;
+}
+.banner{
+    width: 100%;
+    margin: 4% 0%;
+    background-image: url(banner/b2.jpg);
+    height: 45vh;
+}
