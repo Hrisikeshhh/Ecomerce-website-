@@ -45,13 +45,17 @@ nav{
 .listItem li a{
     color: BLACK;
     text-decoration: none;
+
 }
 .listItem li a:hover{
  color: #088178;
  font-size: 120%;
  cursor: pointer;
- border-bottom:3px solid #088178 ;
+ border-bottom:4px solid #088178 ;
  transition: 0.2s ease;
+}
+.home{
+     border-bottom:4px solid #088178 ;
 }
 .logo{
    width: 45%;
@@ -233,4 +237,120 @@ width: 100%;
     margin: 4% 0%;
     background-image: url(banner/b2.jpg);
     height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#red{
+    color: rgb(235, 67, 67);
+}
+#para{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner p{
+    font-size: 197%;
+    text-align: center;
+}
+.banner h1{
+    font-size: 299%;
+    text-align: center;
+}
+#bannerBtn{
+    width: 29%;
+    padding: 2%;
+    font-size: 117%;
+    margin: 3% 0%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#bannerBtn:active{
+    color: white;
+    background-color: #088178;
+}
+.sm-banner{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#first{
+    height: 57%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#right{
+    height: 100%;
+    width: 46%;
+    background: url(banner/b10.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.para-s{
+
+    color: rgb(254, 251, 251);
+}
+.para-s h4{
+    font-size: 138%;
+}
+
+.para-s h1{
+    font-size: 450%;
+}
+
+.para-s p{
+    font-size: 117%;
+}
+
+.para-s button{
+    padding: 2%;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+
+#left{
+    height: 100%;
+    width: 46%;
+    background: url(banner/b17.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#second{
+    height: 38%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.box{
+    width: 30%;
+}
+#left-s{
+ background: url(banner/b7.jpg);
+ background-size: cover;
+}
+#mid-s{
+  background: url(banner/b4.jpg);
+  background-size: cover;
+}
+#right-s{
+  background: url(banner/b18.jpg);
+  background-size: cover;
+}
+
+
+footer{
+    margin-top: 30px;
+    height: 30vh;
 }
